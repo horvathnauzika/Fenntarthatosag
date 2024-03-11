@@ -1,0 +1,40 @@
+.fenntarthatosag h2{
+    color: black;
+    margin-left: 26%;
+}
+
+h1{
+    text-align: center;
+}
+
+.kep{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
+
+th{
+    border: 1px solid black;
+}
+
+td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .kep{
+        grid-template-columns: 1fr;
+    }
+    .fenntarthatosag h2{
+        margin: auto;
+    }
+}
