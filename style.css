@@ -29,6 +29,10 @@ td{
     padding: 10px;
 }
 
+input[type=image]{
+    width: 300px;
+    height: 200px;
+}
 
 @media screen and (max-width: 600px) {
     .kep{

@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <a href="szelektivGyujtes.php">szelektív></a>
+    <br>
+    <a href="vizVedelme.php">Víz védelme></a>
     <?php
     // fenntarthatóság
         // 1. feladat
@@ -27,6 +30,7 @@
         echo "</div>";
         echo "</div>";
 
+        
         // 2. feladat
         $elsoTomb = array("A megújuló erőforrások fogyasztása", "több, mint amit a természet újratermelni képes", "a természet újratermelő kapacitásával azonos mértékű", "kevesebb, mint amit a természet újratermelni képes");
         $masodikTomb = array("A környezet helyzete", "a környezet pusztul", "környezeti egyensúly", "a környezet megújul");
